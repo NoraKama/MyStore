@@ -6,10 +6,11 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import pages.AccountPage;
 import pages.HomePage;
 import utils.SeleniumUtils;
+
+import static java.sql.DriverManager.getDriver;
 
 public class HomeTest extends BaseTest {
     HomePage homePage;
